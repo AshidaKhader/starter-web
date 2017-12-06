@@ -1,25 +1,3 @@
-   <display-name>Spring3MVC</display-name>
-    <welcome-file-list>
-        <welcome-file>index.jsp</welcome-file>
-    </welcome-file-list>
-    <context-param>
-        <param-name>contextConfigLocation</param-name> 
-        <param-value>/WEB-INF/spring-servlet.xml</param-value> 
-    </context-param> 
-    <listener> 
-        <listener-class> org.springframework.web.context.ContextLoaderListener </listener-class> 
-    </listener>
-    <servlet>
-        <servlet-name>spring</servlet-name>
-        <servlet-class>
-            org.springframework.web.servlet.DispatcherServlet
-        </servlet-class>
-        <load-on-startup>2</load-on-startup>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>spring</servlet-name>
-        <url-pattern>*.html</url-pattern>
-        <url-pattern>/</url-pattern>
-        <url-pattern>*.htm</url-pattern>
-    </servlet-mapping>
-</web-app>
+   Hey everyone! Initializr is going to retire at the end of 2017. I'd recommend using H5BP or Bootstrap directly instead. It doesn't take that long to combine them together and you'll get more up-to-date versions of those. Thank you for using Initializr all these years! ❤️
+
+Want to get better at JavaScript? I wrote a free step-by-step guide to build a modern JavaScript stack from scratch.helooooo
